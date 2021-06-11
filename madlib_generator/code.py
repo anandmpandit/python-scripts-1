@@ -1,5 +1,5 @@
 print("This is Madlib Generator python program")
-print("Created by @gauravpandey_")
+print("Created by Gaurav Pandey")
 
 color = input("Enter a color: ")
 plural_noun = input("Enter a Plural Noun: ")
