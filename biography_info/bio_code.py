@@ -1,5 +1,5 @@
 print("This is a Biography info python program")
-print("Created by @gauravpandey_")
+print("Created by Gaurav Pandey")
 
 print("Let's get Started")
 
