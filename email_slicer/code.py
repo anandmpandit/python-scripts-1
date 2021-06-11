@@ -1,5 +1,5 @@
 print("This is your Email Domain Name finder Python Program ")
-print("Created by @gauravpandey_")
+print("Created by Gaurav Pandey")
 
 email = input("Enter Your Email: ").strip()
 
