@@ -1,3 +1,5 @@
+print("Created by Gaurav Pandey")
+
 from plyer import notification
 
 notification.notify( 
@@ -6,6 +8,3 @@ notification.notify(
 	# displaying time 
   timeout=10 
 )
-
-
-
