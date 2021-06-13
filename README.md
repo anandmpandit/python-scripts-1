@@ -8,3 +8,4 @@ These are my solutions to different Beginner Python Project.
 4. Madlib Generator
 5. Message Notifier
 6. Python Quote Bot
+7. Digital Clock
