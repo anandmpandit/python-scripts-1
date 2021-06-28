@@ -3,12 +3,10 @@ print("Created by Gaurav Pandey")
 
 print("Let's get Started")
 
-user_name = input("Enter your Name : ")
-dob_user = input("Enter your Date of Birth : ")
-address_user = input("Enter your Address : ")
-goals_user = input("Enter your Goals : ")
+def personal_details():
+    name = input("Enter your Name here : ")
+    age = input("Enter your Age here : ")
+    address = input("Enter your Address here : ")
+    print("Name: {}\nAge: {}\nAddress: {}".format(name, age, address))
 
-if user_name == 'grv':
-    print("Name : Gaurav Pandey")
-else:
-    print("Wrong")
+personal_details()

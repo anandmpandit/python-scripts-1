@@ -11,3 +11,4 @@ These are my solutions to different Beginner Python Project.
 7. Digital Clock
 8. Movie Recommender
 9. Odd or Even
+10. Password Generator
