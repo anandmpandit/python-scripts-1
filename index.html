@@ -1,0 +1,261 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Gaurav Pandey | Python Projects</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Python Junior Projects" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="This repository will contain all the Python projects that I have created since I started learning Python." />
+<meta property="og:description" content="This repository will contain all the Python projects that I have created since I started learning Python." />
+<link rel="canonical" href="https://gaurtvin.github.io/python-project/" />
+<meta property="og:url" content="https://gaurtvin.github.io/python-project/" />
+<meta property="og:site_name" content="python-project" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Python Junior Projects" />
+<link rel="stylesheet" href="style.css" >
+<script type="application/ld+json">
+{"headline":"Python Junior Projects","description":"This repository will contain all the Python projects that I have created since I started learning Python.","url":"https://gaurtvin.github.io/python-project/","@type":"WebSite","name":"python-project","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="https://gaurtvin.github.io/python-project/assets/css/style.css?v=cc69a19d0c898f121af0d1cd82ced26553fa5611">
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      
+
+      <h1 id="python-junior-projects">Python Junior Projects</h1>
+
+<h3 id="this-repository-will-contain-all-the-python-projects-that-i-have-created-since-i-started-learning-python">This Website will contain all the Python projects that I have created since I started learning Python.</h3>
+
+<h2 id="1-acronyms">1. Acronyms</h2>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">fxn</span><span class="p">(</span><span class="n">stng</span><span class="p">):</span>
+        
+    <span class="c1"># add first letter
+</span>    <span class="n">oupt</span> <span class="o">=</span> <span class="n">stng</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+        
+    <span class="c1"># iterate over string
+</span>    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">stng</span><span class="p">)):</span>
+        <span class="k">if</span> <span class="n">stng</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="s">' '</span><span class="p">:</span>
+              
+            <span class="c1"># add letter next to space
+</span>            <span class="n">oupt</span> <span class="o">+=</span> <span class="n">stng</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+
+    <span class="c1"># uppercase ouput
+</span>    <span class="n">oupt</span> <span class="o">=</span> <span class="n">oupt</span><span class="p">.</span><span class="n">upper</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">oupt</span>
+  
+<span class="c1"># input string
+</span><span class="n">inpt1</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">"Enter a First Word Here : "</span><span class="p">)</span>
+  
+<span class="c1"># output acronym
+</span><span class="k">print</span><span class="p">(</span><span class="n">fxn</span><span class="p">(</span><span class="n">inpt1</span><span class="p">))</span>
+  
+<span class="c1"># input string
+</span><span class="n">inpt1</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">"Enter a Second Word Here : "</span><span class="p">)</span>
+  
+<span class="c1"># output acronym
+</span><span class="k">print</span><span class="p">(</span><span class="n">fxn</span><span class="p">(</span><span class="n">inpt1</span><span class="p">))</span>
+  
+<span class="c1"># input string
+</span><span class="n">inpt1</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">"Enter a Third Word Here : "</span><span class="p">)</span>
+  
+<span class="c1"># output acronym
+</span><span class="k">print</span><span class="p">(</span><span class="n">fxn</span><span class="p">(</span><span class="n">inpt1</span><span class="p">))</span>
+</code></pre></div></div>
+<h2 id="2-age-finder">2. Age Finder</h2>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">birth_year</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">'Birth Year : '</span><span class="p">)</span>
+<span class="n">age</span> <span class="o">=</span> <span class="mi">2021</span> <span class="o">-</span> <span class="nb">int</span><span class="p">(</span><span class="n">birth_year</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s">"You are "</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">age</span><span class="p">)</span> <span class="o">+</span> <span class="s">" Years Old"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h2 id="3-biography-info">3. Biography Info</h2>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">personal_details</span><span class="p">():</span>
+    <span class="n">name</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">"Enter your Name here : "</span><span class="p">)</span>
+    <span class="n">age</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">"Enter your Age here : "</span><span class="p">)</span>
+    <span class="n">address</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">"Enter your Address here : "</span><span class="p">)</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">"Name: {}</span><span class="se">\n</span><span class="s">Age: {}</span><span class="se">\n</span><span class="s">Address: {}"</span><span class="p">.</span><span class="nb">format</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">age</span><span class="p">,</span> <span class="n">address</span><span class="p">))</span>
+
+<span class="n">personal_details</span><span class="p">()</span>
+</code></pre></div></div>
+<h2 id="4-dice-simulator">4. Dice Simulator</h2>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">random</span>
+
+<span class="k">while</span> <span class="bp">True</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">'1. roll the dice  2. exit'</span><span class="p">)</span>
+    <span class="n">user</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s">"What you want to do</span><span class="se">\n</span><span class="s">"</span><span class="p">))</span>
+
+    <span class="k">if</span> <span class="n">user</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+        <span class="n">number</span> <span class="o">=</span> <span class="n">rndom</span><span class="p">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">6</span><span class="p">)</span>
+        <span class="k">print</span><span class="p">(</span><span class="n">number</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">break</span>
+</code></pre></div></div>
+<h2 id="5-digital-clock">5. Digital Clock</h2>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">tkinter</span> <span class="kn">import</span><span class="o">*</span>
+<span class="kn">from</span> <span class="nn">tkinter.ttk</span> <span class="kn">import</span> <span class="o">*</span>
+
+<span class="kn">from</span> <span class="nn">time</span> <span class="kn">import</span> <span class="n">strftime</span>
+
+<span class="n">root</span> <span class="o">=</span>  <span class="n">Tk</span><span class="p">()</span>
+<span class="n">root</span><span class="p">.</span><span class="n">title</span><span class="p">(</span><span class="s">"Clock"</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">time</span><span class="p">():</span>
+    <span class="n">string</span> <span class="o">=</span> <span class="n">strftime</span><span class="p">(</span><span class="s">'%H:%M:%S %p'</span><span class="p">)</span>
+    <span class="n">label</span><span class="p">.</span><span class="n">config</span><span class="p">(</span><span class="n">text</span><span class="o">=</span><span class="n">string</span><span class="p">)</span>
+    <span class="n">label</span><span class="p">.</span><span class="n">after</span><span class="p">(</span><span class="mi">100</span><span class="p">,</span> <span class="n">time</span><span class="p">)</span>
+
+<span class="n">label</span> <span class="o">=</span> <span class="n">Label</span><span class="p">(</span><span class="n">root</span><span class="p">,</span> <span class="n">font</span><span class="o">=</span><span class="p">(</span><span class="s">"JetBrains Mono"</span><span class="p">,</span> <span class="mi">80</span><span class="p">),</span> <span class="n">background</span><span class="o">=</span><span class="s">"black"</span><span class="p">,</span> <span class="n">foreground</span><span class="o">=</span><span class="s">"cyan"</span><span class="p">)</span>
+<span class="n">label</span><span class="p">.</span><span class="n">pack</span><span class="p">(</span><span class="n">anchor</span><span class="o">=</span><span class="s">'center'</span><span class="p">)</span>
+<span class="n">time</span><span class="p">()</span>
+
+<span class="n">mainloop</span><span class="p">()</span>
+</code></pre></div></div>
+
+<h2 id="6-email-slicer">6. Email Slicer</h2>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">email</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">"Enter Your Email: "</span><span class="p">).</span><span class="n">strip</span><span class="p">()</span>
+
+<span class="n">domain</span> <span class="o">=</span> <span class="n">email</span><span class="p">[</span><span class="n">email</span><span class="p">.</span><span class="n">index</span><span class="p">(</span><span class="s">'@'</span><span class="p">)</span> <span class="o">+</span> <span class="mi">1</span><span class="p">:]</span>
+
+<span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"Your domain is </span><span class="si">{</span><span class="n">domain</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h2 id="7-madlib-generator">7. Madlib Generator</h2>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">color</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">"Enter a color: "</span><span class="p">)</span>
+<span class="n">plural_noun</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">"Enter a Plural Noun: "</span><span class="p">)</span>
+<span class="n">celebrity</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">"Enter a celebrity: "</span><span class="p">)</span>
+
+<span class="k">print</span><span class="p">(</span><span class="s">"Roses are "</span> <span class="o">+</span> <span class="n">color</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">plural_noun</span> <span class="o">+</span> <span class="s">" are blue"</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s">"I love "</span> <span class="o">+</span> <span class="n">celebrity</span><span class="p">)</span>
+</code></pre></div></div>
+<h2 id="8-message-notifier">8. Message Notifier</h2>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">plyer</span> <span class="kn">import</span> <span class="n">notification</span>
+
+<span class="n">notification</span><span class="p">.</span><span class="n">notify</span><span class="p">(</span> 
+	<span class="n">title</span> <span class="o">=</span> <span class="s">"Hello World!"</span><span class="p">,</span> 
+	<span class="n">message</span><span class="o">=</span> <span class="s">"My test Message!"</span><span class="p">,</span> 
+	<span class="c1"># displaying time 
+</span>  <span class="n">timeout</span><span class="o">=</span><span class="mi">10</span> 
+<span class="p">)</span>
+</code></pre></div></div>
+<h2 id="9-odd-or-even">9. Odd or Even</h2>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">random</span>
+<span class="n">number</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s">'Which Number you are thinking: '</span><span class="p">))</span>
+
+<span class="k">if</span> <span class="p">(</span><span class="n">number</span> <span class="o">%</span> <span class="mi">2</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">"This is Even Number </span><span class="se">\n</span><span class="s">Great..!!"</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">'This is Odd Number </span><span class="se">\n</span><span class="s">Great..!!'</span><span class="p">)</span>
+</code></pre></div></div>
+<h2 id="10-password-generator">10. Password Generator</h2>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">random</span>
+
+<span class="n">lower</span> <span class="o">=</span> <span class="s">"abcdefghijklmnopqrstuvwxyz"</span>
+<span class="n">upper</span> <span class="o">=</span> <span class="s">"ABCDEFGHIJKLMNOPQRSTUVWXYZ"</span>
+<span class="n">numbers</span> <span class="o">=</span> <span class="s">"0123456789"</span>
+<span class="n">symbols</span> <span class="o">=</span> <span class="s">"[]{}()*;/,._-"</span>
+
+<span class="nb">all</span> <span class="o">=</span> <span class="n">lower</span> <span class="o">+</span> <span class="n">upper</span> <span class="o">+</span> <span class="n">numbers</span> <span class="o">+</span> <span class="n">symbols</span>
+<span class="n">length</span> <span class="o">=</span> <span class="mi">16</span>
+<span class="n">password</span> <span class="o">=</span> <span class="s">""</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="n">random</span><span class="p">.</span><span class="n">sample</span><span class="p">(</span><span class="nb">all</span><span class="p">,</span> <span class="n">length</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="n">password</span><span class="p">)</span>
+</code></pre></div></div>
+<h2 id="11-quiz">11. Quiz</h2>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Simple game in python
+</span>
+<span class="k">print</span><span class="p">(</span><span class="s">'Hi, welcome to the quiz!'</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s">'Try to get as many questions correct as possible...'</span><span class="p">)</span>
+
+<span class="n">totalQuestions</span> <span class="o">=</span> <span class="mi">4</span>
+<span class="n">score</span> <span class="o">=</span> <span class="mi">0</span>
+
+<span class="n">ans</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">'1. What is the name of captain of Indian Cricket Team ? '</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="n">ans</span><span class="p">.</span><span class="n">lower</span><span class="p">()</span> <span class="o">==</span> <span class="s">'virat kholi'</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">'Correct!'</span><span class="p">)</span>
+    <span class="n">score</span> <span class="o">+=</span> <span class="mi">1</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">'Incorrect'</span><span class="p">)</span>
+
+
+<span class="n">ans</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">'2. What is my age? '</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="n">ans</span> <span class="o">==</span> <span class="s">"14"</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">'Correct!'</span><span class="p">)</span>
+    <span class="n">score</span> <span class="o">+=</span> <span class="mi">1</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">'Incorrect'</span><span class="p">)</span>
+
+
+<span class="n">ans</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">'3. What is my favourite sport? '</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="n">ans</span><span class="p">.</span><span class="n">lower</span><span class="p">()</span> <span class="o">==</span> <span class="s">"cricket"</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">'Correct!'</span><span class="p">)</span>
+    <span class="n">score</span> <span class="o">+=</span> <span class="mi">1</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">'Incorrect'</span><span class="p">)</span>
+
+
+<span class="n">ans</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">'4. What is my favourite food? '</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="n">ans</span><span class="p">.</span><span class="n">lower</span><span class="p">()</span> <span class="o">==</span> <span class="s">"cheese burger"</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">'Correct!'</span><span class="p">)</span>
+    <span class="n">score</span> <span class="o">+=</span> <span class="mi">1</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">'Incorrect'</span><span class="p">)</span>
+
+
+<span class="k">print</span><span class="p">(</span><span class="s">"Thank you for playing, you got "</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">score</span><span class="p">)</span> <span class="o">+</span> <span class="s">' questions correct!'</span> <span class="p">)</span>
+<span class="n">percent</span> <span class="o">=</span> <span class="p">(</span><span class="n">score</span><span class="o">/</span><span class="n">totalQuestions</span><span class="p">)</span> <span class="o">*</span> <span class="mi">100</span>
+<span class="k">print</span><span class="p">(</span><span class="s">"Mark: "</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">percent</span><span class="p">))</span> <span class="o">+</span> <span class="s">'%'</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="n">percent</span> <span class="o">&gt;=</span> <span class="mi">50</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">'Nice! You passed!'</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">'Better luck next time'</span><span class="p">)</span>
+</code></pre></div></div>
+<h2 id="12-quote-bot">12. Quote Bot</h2>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">random</span>
+
+<span class="k">def</span> <span class="nf">primary</span><span class="p">():</span>
+
+  <span class="n">f</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s">"quotes.txt"</span><span class="p">)</span>
+  <span class="n">quotes</span> <span class="o">=</span> <span class="n">f</span><span class="p">.</span><span class="n">readlines</span><span class="p">()</span>
+  <span class="n">f</span><span class="p">.</span><span class="n">close</span><span class="p">()</span>
+  <span class="n">last</span> <span class="o">=</span> <span class="mi">13</span>
+  <span class="n">rnd</span> <span class="o">=</span> <span class="n">random</span><span class="p">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">last</span><span class="p">)</span>
+  <span class="k">print</span><span class="p">(</span><span class="n">quotes</span><span class="p">[</span><span class="n">rnd</span><span class="p">])</span>
+
+<span class="k">if</span> <span class="n">__name__</span><span class="o">==</span> <span class="s">"__main__"</span><span class="p">:</span>
+  <span class="n">primary</span><span class="p">()</span>
+</code></pre></div></div>
+<h2 id="13-url-shortner">13. Url Shortner</h2>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">pyshorteners</span>
+
+<span class="n">s</span> <span class="o">=</span> <span class="n">pyshorteners</span><span class="p">.</span><span class="n">Shortener</span><span class="p">()</span>
+
+<span class="k">print</span><span class="p">(</span><span class="n">s</span><span class="p">.</span><span class="n">gitio</span><span class="p">.</span><span class="n">short</span><span class="p">(</span><span class="s">'https://github.com/gaurtvin'</span><span class="p">))</span>
+</code></pre></div></div>
+
+
+      
+      <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
+        This site is open source. <a href="https://github.com/gaurtvin/python-project/edit/main/README.md">Improve this page</a>.
+      </div>
+      
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+    
+  </body>
+</html>
