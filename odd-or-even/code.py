@@ -1,6 +1,3 @@
-print("This is a Odd or Even Finder Python Program")
-print("Created by @gauravpandey")
-
 import random
 number = int(input('Which Number you are thinking: '))
 

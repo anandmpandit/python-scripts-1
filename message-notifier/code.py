@@ -1,5 +1,3 @@
-print("Created by Gaurav Pandey")
-
 from plyer import notification
 
 notification.notify( 
