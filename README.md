@@ -1,7 +1,54 @@
 # Python Junior Projects
 
-### This repository will contain all the Python projects that I have created since I started learning Python.
+ This repository will contain all the Python projects that I have created since I started learning Python.
+ 
+ ## Run Locally
 
+Clone the project
+
+```bash
+  git clone https://github.com/gaurtvin/python-project
+```
+
+## Prerequisites
+
+Make sure that these things were installed before running the code file.
+
+• [Python 3.x](https://www.python.org/downloads/)
+
+•  Tkinter
+```cmd
+pip install tk
+```
+• Plyer
+```cmd
+pip install plyer
+```
+• Pyshorteners
+```cmd
+pip install pyshorteners
+```
+
+## Contributing
+
+Contributions are always welcome!
+
+## Authors
+
+•  Gaurav Pandey [@gaurtvin](https://www.github.com/gaurtvin)
+
+## Feedback
+
+If you have any feedback, please reach out to me at gauravpandey.feedback@gmail.com
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Code
+
+### All Source will be availabel at here 👇
+  
 ## 1. Acronyms
 
 ``` python
