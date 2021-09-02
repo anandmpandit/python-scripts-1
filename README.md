@@ -14,7 +14,7 @@ Clone the project
 
 Make sure that these things were installed before running the code file.
 
-• [Python 3.x](https://www.python.org/downloads/)
+• [Python 3](https://www.python.org/downloads/)
 
 •  Tkinter
 ```cmd
